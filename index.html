@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Czecha</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+<div class="main" >
+    <div class="header">
+        <div class="hLeft">
+            <h1>U Czecha</h1>
+        </div> 
+
+        <div class="hRight">
+            <a href="#">MENU</a>
+            <a href="#">O NAS</a>
+            <a href="#">KONTAKT</a>
+        </div>  
+
+    </div>
+    <div class="mTop">
+        <img src="placeholder.jpg" class="image1">
+    </div>
+    <div class="mMiddle">
+        <input type="button" value="DANIA GŁÓWNE" class="button" onclick="showTable(1)">
+        <div class="List" id="Mi">
+            <table class="tab" style="width:100%">
+
+                <tr>
+                    <td class="LP">LP</td>
+                    <td class="ND">NAZWA DANIA</td>
+                    <td class="CC">CENA</td>
+                </tr>
+
+
+
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <h4>Schabowy</h4>
+                    </td>
+                    <td>35.00 zł</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <h4>Filet</h4>
+                    </td>
+                    <td>35.00 zł</td>
+                </tr>
+
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <h4>Karkówka</h4>
+                    </td>
+                    <td>38.00 zł</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <h4>Nuggetsy</h4>
+                    </td>
+                    <td>22.00 zł</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>
+                        <h4>Placek</h4>
+                    </td>
+                    <td>45.00 zł</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <h4>Gulasz + Kopytka</h4>
+                    </td>
+                    <td>30.00 zł</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>
+                        <h4>Golonka</h4>
+                    </td>
+                    <td>50.00 zł</td>
+                </tr>
+
+                <tr>
+            </table>
+        </div>
+
+
+        <input type="button" value="RYBY" class="button" onclick="showTable(2)">
+        <div class="List" id="Rb">
+            <table class="tab" style="width:100%">
+
+                <tr>
+                    <td class="LP">LP</td>
+                    <td class="ND">NAZWA DANIA</td>
+                    <td class="CC">CENA</td>
+                </tr>
+                   
+
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <h4>Dorsz (200g)</h4>
+                    </td>
+                    <td>43.00 zł</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <h4>Sandacz</h4>
+                    </td>
+                    <td>46.00 zł</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <h4>Pstrąg</h4>
+                    </td>
+                    <td>46.00 zł</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <h4>Halibut</h4>
+                    </td>
+                    <td>45.00 zł</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <h4>Łosoś</h4>
+                    </td>
+                    <td>46.00 zł</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>
+                        <h4>Flądra (100g)</h4>
+                    </td>
+                    <td>11.00 zł</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <h4>Ryba na Wagę (100g)</h4>
+                    </td>
+                    <td>15.00 zł</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <input type="button" value="INNE" class="button" onclick="showTable(3)">
+        <div class="List" id="In" >
+            <table class="tab" style="width:100%">
+
+                <tr>
+                    <td class="LP">LP</td>
+                    <td class="ND">NAZWA DANIA</td>
+                    <td class="CC">CENA</td>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <h4>Pierogi Ruskie</h4>
+                    </td>
+                    <td>28.00 zł</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <h4>Pierogi z Mięsem</h4>
+                    </td>
+                    <td>28.00 zł</td>
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <h4>Placki</h4>
+                    </td>
+                    <td>18.00 zł</td>
+                </tr>
+
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <h4>Naleśniki</h4>
+                    </td>
+                    <td>28.00 zł</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <h4>Krokiety (2szt)</h4>
+                    </td>
+                    <td>12.00 zł</td>
+                </tr>
+            </table>
+        </div>
+
+        <input type="button" value="ZUPY" class="button" onclick="showTable(4)">
+        <div class="List" id="Zu">
+            <table class="tab" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td class="LP">LP</td>
+                        <td class="ND">NAZWA DANIA</td>
+                        <td class="CC">CENA</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            <h4>Rosół</h4>
+                        </td>
+                        <td>12.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>
+                            <h4>Pomidorowa</h4>
+                        </td>
+                        <td>14.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>
+                            <h4>Barszcz</h4>
+                        </td>
+                        <td>10.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>
+                            <h4>Cebulowa</h4>
+                        </td>
+                        <td>14.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>
+                            <h4>Flaki</h4>
+                        </td>
+                        <td>20.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>
+                            <h4>Rybna</h4>
+                        </td>
+                        <td>20.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>
+                            <h4>Zupa Dnia</h4>
+                        </td>
+                        <td>12.00 zł</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>
+                            <h4>Chłodnik</h4>
+                        </td>
+                        <td>20.00 zł</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <input type="button" value="NAPOJE" class="button" onclick="showTable(5)">
+        <div class="List" id="Na">
+            <table  class="tab" style="width:100%">
+
+                <tr>
+                    <td class="LP">LP</td>
+                    <td class="ND">NAZWA DANIA</td>
+                    <td class="CC">CENA</td>
+                </tr>
+
+             
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <h4>Woda</h4>
+                    </td>
+                    <td>8.00 zł</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <h4>Pilsner</h4>
+                    </td>
+                    <td>15.00 zł</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <h4>Haineken</h4>
+                    </td>
+                    <td>12.00 zł</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <h4>Perła</h4>
+                    </td>
+                    <td>10.00 zł</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>
+                        <h4>Tyskie</h4>
+                    </td>
+                    <td>8.00 zł</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <h4>Piwo 0%</h4>
+                    </td>
+                    <td>8.00 zł</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>
+                        <h4>Lemoniada</h4>
+                    </td>
+                    <td>14.00 zł</td>
+                </tr>
+              
+            </table>
+        </div>
+        
+        <input type="button" value="DODATKI" class="button" onclick="showTable(6)">
+        <div class="List" id="Do">
+
+            <table class="tab" style="width:100%">
+
+                <tr>
+                    <td class="LP">LP</td>
+                    <td class="ND">NAZWA DANIA</td>
+                    <td class="CC">CENA</td>
+                </tr>
+    
+    
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <h4>Frytki</h4>
+                    </td>
+                    <td>8.00 zł</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <h4>Małosolne</h4>
+                    </td>
+                    <td>3.00 zł</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <h4>Opakowanie</h4>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <h4>Dodatki</h4>
+                    </td>
+                    <td>5.00 zł</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="mMiddle2">
+
+            <H1>test , test ,test</H1>
+            <img src="">
+            <h2>test</h2>
+        </div>
+    </div>
+    <div class="mBottom">
+        <p>test test</p>
+    </div>
+</div>
+    
+
+
+<script>
+    let menu = [0,0,0,0,0,0]
+
+    let Mi = document.getElementById("Mi")
+    let Rb = document.getElementById("Rb")
+    let In = document.getElementById("In")
+    let Zu = document.getElementById("Zu")
+    let Na = document.getElementById("Na")
+    let Do = document.getElementById("Do")
+    let b = false
+    let tabs = [Mi,Rb,In,Zu,Na,Do]
+function showTable(x)
+{
+    x = x-1
+    
+
+    if(menu[x] == 1)
+{
+ b = true
+}
+
+    hide()
+
+if(b== true)
+{
+    b = false;
+}
+else
+{
+    switch(x+1)
+{  
+    case 1: 
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1) )
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+        break;
+    case 2:
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1) )
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+
+        break;
+    case 3:
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1))
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+
+        break;
+    case 4: 
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1) )
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+
+        break;
+    case 5:
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1)) 
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+
+
+        break;
+    case 6:
+        menu[x] = 1
+        tabs[x].style.display = "block"
+        tabs[x].style.animation = "none"
+        tabs[x].offsetWidth;
+        tabs[x].offsetHeight;
+        tabs[x].style.setProperty('--target-height', height(x,1) )
+        tabs[x].style.animation = "ListPull 1s ease forwards"
+
+
+        break;
+}
+}
+   
+
+
+}
+function hide()
+{
+    for(i = 0 ;i < tabs.length; i++)
+{
+    if(menu[i] == 1)
+{
+    tabs[i].style.display = "block"
+    tabs[i].style.animation = "none"
+    tabs[i].offsetWidth;
+    tabs[i].offsetHeight;
+    tabs[i].style.setProperty('--target-height', height(i,2) )
+    tabs[i].style.animation = "ListPullReverse 1s ease forwards"
+    menu[i] = 0;
+    addEventListener("animationend", ()=> {tabs[i].style.display = "none";})
+}else
+{
+    tabs[i].style.display = "none"
+
+}
+}
+}
+function height(x,y)
+{
+    switch(y)
+    {
+        case 1:
+            return (tabs[x].scrollHeight) + "px"
+
+            break;
+
+
+        case 2:
+            return (tabs[x].scrollHeight) + "px"
+
+
+            break;
+    }
+}
+
+</script>
+
+
+<Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+
+    
+</body>
+</html>
